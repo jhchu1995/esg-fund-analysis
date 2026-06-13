@@ -37,7 +37,7 @@ The same picture using an *involvement tilt* (green-company share minus sin-indu
 
 How well each classifier predicts whether a fund is ESG-labeled from its portfolio alone. The holdings do carry some signal — the strongest models clear the chance line by a clear margin — but ESG is the least predictable of the fund-name categories tested (Section 7). So the label is partly recoverable, not cleanly separable, which fits a picture where ESG is a directional tilt layered on otherwise conventional holdings rather than a distinct universe a fund selects into.
 
-> Captions describe the *shape* of the result; exact figures (overlap %, AUCs, effect sizes) live in the `outputs/*.csv` tables the notebook writes, so the repository never advertises a stale number.
+> Figure captions describe the shape of each result; the precise numbers appear in the plots themselves and, in full, in the outputs/*.csv tables the notebook writes. After any change to the data or definitions, re-run the notebook and refresh the images in figures/ so the figures and the paper stay in sync.
 
 ---
 
