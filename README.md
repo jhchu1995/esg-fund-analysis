@@ -115,8 +115,7 @@ sources, and column schemas are in **[`data/README.md`](data/README.md)**. In sh
 
 - **`nport_holdings_2024.csv`** — derived from **public** SEC EDGAR N-PORT filings (free to
   rebuild; the upstream scraper is a separate utility).
-- **`fund_tier_shares.csv`** and **`holdings_tiered.csv`** — require **S&P Global /
-  Sustainable1 ESG scores**, which are proprietary and accessed under a **WRDS** license.
+- **`fund_tier_shares.csv`** and **`holdings_tiered.csv`** — require **S&P Global ESG scores dataset**, which are proprietary and accessed under a **WRDS** license.
   Anyone with WRDS access can rebuild them from the schemas in `data/README.md`; the scores
   themselves cannot be redistributed here.
 
