@@ -31,11 +31,11 @@ Distribution of the *score-based tilt* (share of the rated sleeve in high-ESG-sc
 
 The same picture using an *involvement tilt* (green-company share minus sin-industry share). Again the two groups largely coincide — ESG-named funds are not buying from a different universe of securities; they apply a small directional tilt on top of otherwise conventional holdings.
 
-**An "ESG" label is hard to recover from holdings alone.**
+**An "ESG" label can, to some extent, be recovered from holdings.**
 
 ![Predicting the ESG label from holdings: model horse race](figures/horse_race_all_models.png)
 
-How well each classifier predicts whether a fund is ESG-labeled from its portfolio alone. Even the strongest model separates ESG from non-ESG funds only modestly above the majority-class baseline — the holdings carry little ESG-specific signal, which is exactly what you would expect if "ESG" is an overlay rather than a distinct selection universe.
+How well each classifier predicts whether a fund is ESG-labeled from its portfolio alone. The holdings do carry some signal — the strongest models clear the chance line by a clear margin — but ESG is the least predictable of the fund-name categories tested (Section 7). So the label is partly recoverable, not cleanly separable, which fits a picture where ESG is a directional tilt layered on otherwise conventional holdings rather than a distinct universe a fund selects into.
 
 > Captions describe the *shape* of the result; exact figures (overlap %, AUCs, effect sizes) live in the `outputs/*.csv` tables the notebook writes, so the repository never advertises a stale number.
 
