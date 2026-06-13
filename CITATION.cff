@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ESG Names Rule Audit: An N-PORT + S&P Global ESG pipeline"
+authors:
+  - family-names: "Chu"
+    given-names: "Jui-Hsiang"
+    name-suffix: "(Alex)"
+abstract: >-
+  A reproducible pipeline using SEC Form N-PORT holdings and S&P Global ESG
+  scores to test whether ESG-labeled funds engage in genuine security selection
+  or express ESG as a portfolio-level tilt, with application to the SEC's 2023
+  Names Rule amendments.
+keywords:
+  - ESG
+  - SEC Names Rule
+  - N-PORT
+  - empirical legal studies
+  - financial regulation
+  - greenwashing
+license: MIT
+version: "1.0.0"
+date-released: "2026-06-13"

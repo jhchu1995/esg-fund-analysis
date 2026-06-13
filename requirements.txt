@@ -1,0 +1,21 @@
+# Core scientific stack
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+
+# Machine learning
+scikit-learn>=1.3
+xgboost>=2.0
+sentence-transformers>=2.2     # semantic ESG fund-name classifier (Section 2)
+
+# Plotting
+matplotlib>=3.7
+seaborn>=0.12
+
+# Utilities / data acquisition (upstream N-PORT scrape)
+tqdm>=4.65
+requests>=2.31
+lxml>=4.9
+
+# Notebook
+jupyter>=1.0
